@@ -1,0 +1,12 @@
+{
+  "name": "keep-moving",
+  "version": "1.0.0",
+  "private": true,
+  "author": "musicq",
+  "scripts": {
+    "test": "mocha packages/**/*.spec.js"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.4"
+  }
+}

@@ -1,2 +1,3 @@
 # keep-moving
-Skill imporving
+
+Includes some scripts I rewrote to imporve my skills.
