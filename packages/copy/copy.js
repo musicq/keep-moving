@@ -13,7 +13,13 @@ function copy(obj) {
   const o = Array.isArray(obj) ? [] : {};
 
   for (let i in obj) {
-    let prop = obj[i];
+    let prop;
+    if (obj.hasOwnProperty(i)) {
+      prop = obj[i];
+    } else {
+      continue;
+    }
+
     if (typeof obj === 'object') {
       o[i] = copy(prop);
     } else {
